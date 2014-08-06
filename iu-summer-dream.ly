@@ -3,13 +3,14 @@
 
 melody = \relative c' {
   \clef treble
-  \key e \major
+  \key c \major
   \time 4/4
 
+  r4 e8 f8 g4. g8 | a4. bes8~ bes8 g4.
 }
 
 harmonies = \chordmode {
-  e
+  e a g a
 }
 
 \score {
