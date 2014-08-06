@@ -6,11 +6,20 @@ melody = \relative c' {
   \key c \major
   \time 4/4
 
-  r4 e8 f8 g4. g8 | a4. bes8~ bes8 g4.
+  r4 e8 f8 g4. g8 | a4. bes8~ bes8 g4. | r4 a8 b8 c8 c4 d8~ | d8 c4 g4. r4 |
+  f8 g e f~ f4. g8 | e4 g8 c~ c4 r4 | r4 a8 b c c4 a8~ | a8 c4. b4 r4
+
 }
 
 harmonies = \chordmode {
-  e a g a
+  c1 | c1:7 | f1 | e1:m |
+  d2:m g2:7 | c2 a2:m | f1 | g1
+}
+
+
+\header {
+  title = "summer night's dream"
+  composer = "IU"
 }
 
 \score {
@@ -24,5 +33,7 @@ harmonies = \chordmode {
     }
   >>
   \layout {}
-  \midi {}
+  \midi {
+    \tempo 4 = 120
+  }
 }
