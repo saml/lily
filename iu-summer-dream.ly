@@ -13,9 +13,10 @@ melody = \relative c' {
   f8 g e f~ f4. g8 | e4 g8 c~ c4 r4 | a8 b c c~ c c4 d8~ | d8 c4. r2 |
 
   r4 a8 b c d4 c8 | b4 c8 b~ b g4. | r4 f8 e f f4 g8 | a4 b8 g~ g4 r4 
-  r4 a8 b c d4 c8~ | c8 g'4 f8~ f8 e4. | f8 e c c~ c4. a8 | c4. d~ d4 e8 f |
+  r4 a8 b c d4 c8~ | c8 g'4 f8~ f8 e4. | f8 e c c~ c4. a8 | c4. d8~ d4 e8 f |
 
-  e4. e8 e d16 d~ d8 c | d4. g16 g8~ g4 r4 | f8 e f c16 c~ c8 d4 g8 | g8 g g d16 d~ d8 e4 e8 
+  e4. e8 e d16 d~ d8 c | d4. g,16 g8~ g4 r4 | f8 e f c'16 c~ c8 d4 g,8 | g8 g g d'16 d~ d8 e e f
+  g4. g8 g f e f | g2. r4 | f8 e c c~ c c d4 | c2.
 
 }
 
