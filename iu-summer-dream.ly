@@ -5,6 +5,7 @@ melody = \relative c' {
   \clef treble
   \key c \major
   \time 4/4
+  \autoBeamOn
 
   r4 e8 f8 g4. g8 | a4. bes8~ bes8 g4. | r4 a8 b8 c8 c4 d8~ | d8 c4 g4. r4 |
   f8 g e f~ f4. g8 | e4 g8 c~ c4 r4 | r4 a8 b c c4 a8~ | a8 c4. b4 r4 |
