@@ -1,5 +1,5 @@
 
-\version "2.18.2"
+\version "2.12.2"
 
 melody = \relative c' {
   \clef treble
@@ -15,8 +15,8 @@ melody = \relative c' {
   r4 a8 b c d4 c8 | b4 c8 b~ b g4. | r4 f8 e f f4 g8 | a4 b8 g~ g4 r4 
   r4 a8 b c d4 c8~ | c8 g'4 f8~ f8 e4. | f8 e c c~ c4. a8 | c4. d8~ d4 e8 f |
 
-  e4. e8 e d16 d~ d8 c | d4. g,16 g8~ g4 r4 | f8 e f c'16 c~ c8 d4 g,8 | g8 g g d'16 d~ d8 e e f
-  g4. g8 g f e f | g2. r4 | f8 e c c~ c c d4 | c2.
+  e4. e8 e d16 d~ d8 c~ | c8 d4 g,16 g8~ g4 r4 | f8 e f c'16 c~ c8 d4 g,8 | g8 g g d'16 d~ d8 e8. e16 f
+  g4. g8 g f e f~ | f8 g8~ g2 r4 | f8 e c c~ c c d4 | c2.
 
 }
 
@@ -54,7 +54,5 @@ harmonies = \chordmode {
     }
   >>
   \layout {}
-  \midi {
-    \tempo 4 = 120
-  }
+
 }
